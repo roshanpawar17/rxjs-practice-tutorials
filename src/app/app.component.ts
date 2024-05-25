@@ -18,14 +18,14 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {      
     // 1. use promise
-    this.usingPromise();
+    // this.usingPromise();
     // 2. use Async/await
-    this.usingAsyncAwait();
+    // this.usingAsyncAwait();
     // 3. using fectch api
     // 3.1) use promise for fetch api
-    this.usingPromiseFetchApi();
+    // this.usingPromiseFetchApi();
     // 3.2) use Async/await for fetch api
-    this.usingAsycAwaitFetchApi()
+    // this.usingAsycAwaitFetchApi()
   }
 
   promiseFn(): Promise<any>{  
